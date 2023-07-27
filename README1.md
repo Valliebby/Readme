@@ -2,12 +2,13 @@
 The README Generator is a command-line tool that simplifies the process of creating professional and informative README files for your repositories. With this you can quickly generate a README file with the necessary sections and placeholders, allowing you to focus on the content specific to your work.
 
 ##Table of Contents
--Installation
--Usage
--License
--Contributors
--Tests
--Questions
+- Features
+- Installation
+- Usage
+- License
+- Contributors
+- Tests
+- Questions
 
 Features
 Easy-to-use Command Line Interface: The tool provides a user-friendly CLI that guides you through the process of generating a README file step by step.
