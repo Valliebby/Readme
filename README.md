@@ -39,4 +39,10 @@ Once you have completed all the prompts, the tool will generate a README.md file
 Customization
 The README Generator uses a predefined template for the structure of the README file. You can customize the template by modifying the template.md file in the project's root directory.
 
-The template.md file uses placeholder tags enclosed in double curly braces, such as {{projectName}}, {{description}}, etc. The tool replaces these tags with the user-provided content during the generation process.
+
+
+https://github.com/Valliebby/Readme/assets/119483866/16d3f14d-772f-4f16-9629-b17686b7c7ce
+
+![Screen Shot 2023-07-27 at 3 10 40 PM](https://github.com/Valliebby/Readme/assets/119483866/d0eff35a-3590-48d6-b1d9-04a6e4786061)
+
+
