@@ -4,8 +4,7 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 const { type } = require('os');
 // Array of questions for user input
-const promptQuestions = () => {
-    return inquirer.prompt([
+const question = [
     
     {
         type: 'input',
@@ -63,8 +62,8 @@ const promptQuestions = () => {
       name:'license',
       choices: ['Apache','Boost','MIT','Mozilla']
      },
-]);
-};
+];
+
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -81,7 +80,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize app
 function init() {
-    inquirer.prompt(questions)
+    inquirer.prompt(question)
     .then(function(response){
         const page= generateMarkdown(response)
         writeToFile("./utils/README.md",page)
